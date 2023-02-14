@@ -1,0 +1,7 @@
+#!/bin/bash
+echo $(ENTER THE FIRST VALUE: \e)
+read -r a
+echo $(ENTER THE SECOND VALUE: \e)
+read -r b
+
+echo $(a+b)
